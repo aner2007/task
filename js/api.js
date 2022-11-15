@@ -21,9 +21,8 @@ function getPosts(){
         var postHTML='';
         for(var i=0; i<postData.length;i++){
 // console.log(postData[i].title.rendered);
-        postHTML +='<h2>'+postData[i].title.rendered+'</h2>';
-        postHTML +='<h2>'+postData[i].content.rendered+'</h2>';
+        postHTML +='<div class="post-main"><h2>'+postData[i].title.rendered+'</h2>';
+        postHTML +='<p>'+postData[i].content.rendered+'</p></div>';
     }
         postContainer.innerHTML=postHTML;
     }
-    getPosts();
