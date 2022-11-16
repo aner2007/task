@@ -22,7 +22,8 @@ function getPosts(){
         for(var i=0; i<postData.length;i++){
 // console.log(postData[i].title.rendered);
         postHTML +='<div class="post-main"><h2>'+postData[i].title.rendered+'</h2>';
-        postHTML +='<p>'+postData[i].content.rendered+'</p></div>';
+        postHTML +='<p>'+postData[i].content.rendered+'</p>';
+        postHTML +='<a>'Read more'</a></div>';
     }
         postContainer.innerHTML=postHTML;
     }

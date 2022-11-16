@@ -40,12 +40,13 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
-                    <h3>Social icons</h3>
+                    <h3>Follow us</h3>
                     <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <p class="copyright">Company Name  2022</p>
                 </div>
 
             </div>
-            <p class="copyright">Company Name © 2018</p>
+
         </div>
     </footer>
 </div>

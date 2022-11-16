@@ -3,6 +3,7 @@
     color:#f0f9ff;
     background-color:#282d32;
     float: left;
+    width:100%
 }
 
 .footer-dark h3 {
@@ -75,6 +76,8 @@
     margin:0 8px;
     color:#fff;
     opacity:0.75;
+    padding-top: 7px;
+
 }
 
 .footer-dark .item.social > a:hover {

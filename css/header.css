@@ -5,7 +5,7 @@
     padding: 20px 10px;
 }
 .header-menu{
-    max-width: 1440px;
+    max-width: 1423px;
     margin:auto;
 }
 /* Style the header links */
@@ -28,14 +28,14 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-    background-color: #ddd;
+    background-color: #63e34d;
     color: black;
 }
 
 /* Style the active/current link*/
 .header a.active {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #63e34d;
+    color: #020202;
 }
 
 /* Float the link section to the right */
