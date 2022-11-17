@@ -1,6 +1,9 @@
 <?php
 
-$url="https://rosins-dev.digiqal.de/wp-json/wp/v2/";
+$url="https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
+
+$headers = array();
+$headers[] = 'Content-Type: application/json';
 $data_array=array(
     'title' =>'Mostar',
     'content' =>'svega pomalo je bilo',
@@ -15,6 +18,7 @@ curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch,CURLOPT_HTTPHEADER, $headers);
 
 $resp = curl_exec($ch);
 
