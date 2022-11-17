@@ -9,6 +9,7 @@
 <div id="post-container">
 
     <?php include 'php/api.php'; ?>
+    <?php include 'includes/content.php'; ?>
 </div>
-<?php include 'includes/content.php'; ?>
+
 <?php include 'includes/footer.php'; ?>

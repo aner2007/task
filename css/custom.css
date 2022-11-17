@@ -9,11 +9,33 @@
     margin: auto;
 }
 .read-more{
-    background: #63e34d;
+    background: #3cee9f;
     padding: 10px;
 }
 .post-main h2{
     margin-top:20px;
     font-size: 24px;
     font-weight: 600;
+}
+.drop-us{
+    background: #e2f8ff;
+    padding: 30px;
+    z-index: 9;
+    display: flex;
+    float: left;
+    position: relative;
+    margin-bottom: -60px;
+    width: 98%;
+    margin-left: 17px;
+}
+.drop-left{
+    width: 72%;
+    padding-left: 41px;
+}
+.drop-btn{
+  display: block;
+  margin:auto;
+  color: #000;
+  background: #3cee9f;
+  padding: 10px 35px;
 }
