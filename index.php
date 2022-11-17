@@ -10,5 +10,5 @@
 
     <?php include 'php/api.php'; ?>
 </div>
-
+<?php include 'includes/content.php'; ?>
 <?php include 'includes/footer.php'; ?>

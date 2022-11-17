@@ -1,33 +1,29 @@
 <?php
 
-$url="https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
+$url = "https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
 
-$headers = array();
-$headers[] = 'Content-Type: application/json';
-$data_array=array(
-    'title' =>'Mostar',
-    'content' =>'svega pomalo je bilo',
-    'type' =>'post'
+$curl = curl_init($url);
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+$headers = array(
+    "Accept: application/json",
+    "Authorization: Basic c2FuamluOmJvbGlnbGF2YTEw",
+    "Content-Type: application/json",
 );
+curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
-$data =http_build_query($data_array);
+$data = '{"title":"amerlina"}';
 
-$ch=curl_init();
+curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
 
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch,CURLOPT_HTTPHEADER, $headers);
+//for debug only!
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
-$resp = curl_exec($ch);
+$resp = curl_exec($curl);
+curl_close($curl);
+var_dump($resp);
 
-if($e = curl_error($ch)){
-    echo $e;
-} else {
-    $decoded = json_decode($resp);
-    foreach ($decoded as $key => $val){
-        echo $key.' : '.$val.'<br>';
-    }
-}
-curl_close();
+?>
