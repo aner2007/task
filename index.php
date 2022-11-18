@@ -28,6 +28,7 @@
                 <div>
                     <input class="fname" type="text" name="name" placeholder="Post Title" />
                     <span>Choose category</span>
+                    <div class="">
                     <input type="checkbox" id="design" name="design" value="Design">
                     <label for="vehicle1"> Design</label><br>
                     <input type="checkbox" id="branding" name="branding" value="Branding">
@@ -35,8 +36,8 @@
                     <input type="checkbox" id="ilustrations" name="ilustrations" value="Ilustrations">
                     <label for="vehicle3"> Ilustrations</label><br
                     <input type="checkbox" id="icons" name="icons" value="Icons">
-                    <label for="vehicle2"> Icons</label><br>
-
+                    <label for="vehicle4"> Icons</label><br>
+                    </div>
                 </div>
                 <span>Content</span>
                 <div>
