@@ -1,4 +1,5 @@
-
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jquery.easyPaginate.js"></script>
 <?php include 'includes/header.php'; ?>
 <style><?php include 'css/custom.css'; ?></style>
 <style><?php include 'css/header.css'; ?></style>
@@ -12,8 +13,9 @@
 </div>
 
 <div id="post-container">
-
+    <div id="pagination">
     <?php include 'php/api.php'; ?>
+    </div>
     <div class="blog-title">
         <div class="blog-content">
             <h1>My Blog Custom PHP</h1>
@@ -29,5 +31,11 @@
         <div class="drop-btn"><a href="/contact">Contact us</a></div>
     </div>
 </div>
-
+<script>
+    $('#easyPaginate').easyPaginate({
+        paginateElement: 'img',
+        elementsPerPage: 3,
+        effect: 'climb'
+    });
+</script>
 <?php include 'includes/footer.php'; ?>

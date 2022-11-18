@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .post-main{
     width: 33%;
     padding: 20px;
@@ -63,3 +67,7 @@
     margin: auto;
     margin-top: 20px;
 }
+#pagination {width:300px;}
+#pagination div {display:block;margin-bottom:10px;}
+.pagination a {padding:5px;}
+.pagination a.current {font-weight:bold;text-decoration:underline;}
