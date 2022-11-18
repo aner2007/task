@@ -23,7 +23,7 @@
     <div class="modal-content">
         <div class="contact-form">
             <a class="close">&times;</a>
-            <form action="/">
+            <form action="/task/php/apipost.php">
                  <div>
                     <input class="fname" type="text" name="name" placeholder="Post Title" />
                     <br><br>

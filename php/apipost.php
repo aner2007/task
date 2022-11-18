@@ -1,5 +1,10 @@
 <?php
-
+if (isset($_GET['title'])) {
+    $title=$_GET['title'];
+}
+if (isset($_GET['content'])) {
+    $content=$_GET['content'];
+}
 $url = "https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
 
 $curl = curl_init($url);
@@ -14,7 +19,7 @@ $headers = array(
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
-$data = '{"title":"amerlina"}';
+$data = '{"title":"'.$title.'","content":"'.$content.'"}';
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
 
