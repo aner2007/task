@@ -5,6 +5,7 @@
 <style><?php include 'css/header.css'; ?></style>
 <style><?php include 'css/footer.css'; ?></style>
 <style><?php include 'css/pagination.css'; ?></style>
+<style><?php include 'css/form.css'; ?></style>
 
 <div class="blog-title">
     <div class="blog-content">
@@ -13,6 +14,58 @@
     </div>
 </div>
 
+<h2>Multiple Popup Forms</h2>
+<p>
+    <button class="button" data-modal="modalOne">Contact Us</button>
+</p>
+<p>
+    <button class="button" data-modal="modalTwo">Send a Compliant Form</button>
+</p>
+<div id="modalOne" class="modal">
+    <div class="modal-content">
+        <div class="contact-form">
+            <a class="close">&times;</a>
+            <form action="/">
+                <h2>Contact Us</h2>
+                <div>
+                    <input class="fname" type="text" name="name" placeholder="Full name" />
+                    <input type="text" name="name" placeholder="Email" />
+                    <input type="text" name="name" placeholder="Phone number" />
+                    <input type="text" name="name" placeholder="Website" />
+                </div>
+                <span>Message</span>
+                <div>
+                    <textarea rows="4"></textarea>
+                </div>
+                <button type="submit" href="/">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="modalTwo" class="modal">
+    <div class="modal-content">
+        <div class="contact-form">
+            <span class="close">&times;</span>
+            <form action="/">
+                <h2>Complaint form</h2>
+                <div>
+                    <input class="fname" type="text" name="name" placeholder="Full name" />
+                    <input type="text" name="name" placeholder="Email" />
+                    <input type="text" name="name" placeholder="Phone number" />
+                    <input type="text" name="name" placeholder="Website" />
+                </div>
+                <span>Message</span>
+                <div>
+                    <textarea rows="4"></textarea>
+                </div>
+                <button type="submit" href="/">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="new-post"><btn id="add-post"> Add New Post</btn></div>
 <div id="post-container">
 
     <?php include 'php/api.php'; ?>
@@ -33,4 +86,5 @@
     </div>
 </div>
 <script src="js/pagination.js"></script>
+<script src="js/form.js"></script>
 <?php include 'includes/footer.php'; ?>
