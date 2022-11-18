@@ -27,10 +27,15 @@
     margin-bottom: -60px;
     width: 98%;
     margin-left: 17px;
+    margin-top:60px;
 }
 .drop-left{
     width: 72%;
     padding-left: 41px;
+}
+.drop-left h3{
+    font-size: 34px;
+    font-weight: 600;
 }
 .drop-btn{
   display: block;
@@ -38,4 +43,7 @@
   color: #000;
   background: #3cee9f;
   padding: 10px 35px;
+   }
+.drop-btn a{
+    color:#000;
 }
