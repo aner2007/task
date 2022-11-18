@@ -27,14 +27,15 @@
                 <h2>Add Post</h2>
                 <div>
                     <input class="fname" type="text" name="name" placeholder="Post Title" />
+                    <br>
                     <span>Choose category</span>
-                    <div class="">
+                    <div class="category">
                     <input type="checkbox" id="design" name="design" value="Design">
                     <label for="vehicle1"> Design</label><br>
                     <input type="checkbox" id="branding" name="branding" value="Branding">
                     <label for="vehicle2"> Branding</label><br>
                     <input type="checkbox" id="ilustrations" name="ilustrations" value="Ilustrations">
-                    <label for="vehicle3"> Ilustrations</label><br
+                    <label for="vehicle3"> Ilustrations</label><br>
                     <input type="checkbox" id="icons" name="icons" value="Icons">
                     <label for="vehicle4"> Icons</label><br>
                     </div>
