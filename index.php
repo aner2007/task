@@ -25,8 +25,6 @@
             <a class="close">&times;</a>
             <form action="/task/php/apipost.php">
                  <div>
-                    <input class="fname" type="text" name="name" placeholder="Post Title" />
-                    <br><br>
                     <span>Choose category</span>
                     <div class="category">
                     <input type="checkbox" id="design" name="design" value="Design">
@@ -41,7 +39,7 @@
                 </div>
                 <span>Content</span>
                 <div>
-                    <textarea rows="4"></textarea>
+                    <textarea rows="4" name="content"></textarea>
                 </div>
                 <button type="submit" href="/">Submit</button>
             </form>
