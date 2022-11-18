@@ -16,13 +16,7 @@
 <div id="post-container">
 
     <?php include 'php/api.php'; ?>
-    <div class="blog-title">
-        <div class="blog-content">
-            <h1>My Blog Custom PHP</h1>
-            <p>Lorem ipsum s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
-        </div>
-    </div>
-    <?php include 'php/api2.php'; ?>
+
     <div class="blog-title">
         <div class="blog-content">
             <h1>My Blog Custom PHP</h1>
