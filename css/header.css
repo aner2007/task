@@ -36,6 +36,7 @@
 .header a.active {
     background-color: #3cee9f;
     color: #020202;
+    margin-right: 10px;
 }
 
 /* Float the link section to the right */

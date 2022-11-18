@@ -26,5 +26,11 @@
     </div>
 </div>
 </div>
+<div class="blog-title">
+    <div class="blog-content">
+        <h2>Subscribe Blog for lates updates</h2>
+        <p>Lorem ipsum s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+    </div>
+</div>
 <script src="js/pagination.js"></script>
 <?php include 'includes/footer.php'; ?>
