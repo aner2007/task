@@ -16,7 +16,7 @@
 
 
 <div class="add-post">
-    <button class="button" data-modal="modalOne">Contact Us</button>
+    <button class="button" data-modal="modalOne">Add Post</button>
 </div>
 
 <div id="modalOne" class="modal">
@@ -24,10 +24,9 @@
         <div class="contact-form">
             <a class="close">&times;</a>
             <form action="/">
-                <h2>Add Post</h2>
-                <div>
+                 <div>
                     <input class="fname" type="text" name="name" placeholder="Post Title" />
-                    <br>
+                    <br><br>
                     <span>Choose category</span>
                     <div class="category">
                     <input type="checkbox" id="design" name="design" value="Design">
