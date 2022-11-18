@@ -13,7 +13,8 @@
 .modal-content {
     margin: 50px auto;
     border: 1px solid #999;
-    width: 60%;
+    width: 60% !important;
+
 }
 h2,
 p {
@@ -70,12 +71,20 @@ button.button {
     outline: none;
     border-right: none;
     border-left: none;
-    border-bottom: #02274a 1px solid;
+    border-bottom: none
     padding: 0 0 3px 0;
     font-size: 16px;
     cursor: pointer;
 }
-button.button:hover {
-    border-bottom: #a99567 1px solid;
-    color: #a99567;
+.add-post{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 30px;
+    background: #3cee9f;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 6px;
+    margin-bottom: -24px;
 }

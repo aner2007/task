@@ -14,47 +14,31 @@
     </div>
 </div>
 
-<h2>Multiple Popup Forms</h2>
-<p>
+
+<div class="add-post">
     <button class="button" data-modal="modalOne">Contact Us</button>
-</p>
-<p>
-    <button class="button" data-modal="modalTwo">Send a Compliant Form</button>
-</p>
+</div>
+
 <div id="modalOne" class="modal">
     <div class="modal-content">
         <div class="contact-form">
             <a class="close">&times;</a>
             <form action="/">
-                <h2>Contact Us</h2>
+                <h2>Add Post</h2>
                 <div>
-                    <input class="fname" type="text" name="name" placeholder="Full name" />
-                    <input type="text" name="name" placeholder="Email" />
-                    <input type="text" name="name" placeholder="Phone number" />
-                    <input type="text" name="name" placeholder="Website" />
+                    <input class="fname" type="text" name="name" placeholder="Post Title" />
+                    <span>Choose category</span>
+                    <input type="checkbox" id="design" name="design" value="Design">
+                    <label for="vehicle1"> Design</label><br>
+                    <input type="checkbox" id="branding" name="branding" value="Branding">
+                    <label for="vehicle2"> Branding</label><br>
+                    <input type="checkbox" id="ilustrations" name="ilustrations" value="Ilustrations">
+                    <label for="vehicle3"> Ilustrations</label><br
+                    <input type="checkbox" id="icons" name="icons" value="Icons">
+                    <label for="vehicle2"> Icons</label><br>
+
                 </div>
-                <span>Message</span>
-                <div>
-                    <textarea rows="4"></textarea>
-                </div>
-                <button type="submit" href="/">Submit</button>
-            </form>
-        </div>
-    </div>
-</div>
-<div id="modalTwo" class="modal">
-    <div class="modal-content">
-        <div class="contact-form">
-            <span class="close">&times;</span>
-            <form action="/">
-                <h2>Complaint form</h2>
-                <div>
-                    <input class="fname" type="text" name="name" placeholder="Full name" />
-                    <input type="text" name="name" placeholder="Email" />
-                    <input type="text" name="name" placeholder="Phone number" />
-                    <input type="text" name="name" placeholder="Website" />
-                </div>
-                <span>Message</span>
+                <span>Content</span>
                 <div>
                     <textarea rows="4"></textarea>
                 </div>
@@ -64,8 +48,6 @@
     </div>
 </div>
 
-
-<div class="new-post"><btn id="add-post"> Add New Post</btn></div>
 <div id="post-container">
 
     <?php include 'php/api.php'; ?>
