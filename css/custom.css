@@ -47,3 +47,19 @@
 .drop-btn a{
     color:#000;
 }
+.blog-title{
+    background: #ddf1f7;
+    padding: 60px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.blog-content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.blog-content p{
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
