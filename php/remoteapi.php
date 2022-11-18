@@ -1,4 +1,5 @@
 <?php
+include '../includes/header.php';
 $curl=curl_init();
 curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?_embed');
 curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
@@ -23,7 +24,7 @@ $arrayIds=[];
 ?>
     </ul>
     <?php
-    curl_close($curl);
+    curl_close($curl); ?>
 <?php include '../includes/header.php'; ?>
 
 <style><?php include '../css/pagination.css'; ?></style>
