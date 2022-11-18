@@ -42,8 +42,8 @@ li{
     border: none;
     margin: 0.25rem 0.25rem;
     cursor: pointer;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 1.7rem;
+    width: 1.7rem;
     border-radius: .2rem;
 }
 
@@ -54,6 +54,9 @@ li{
 
 .pagination-number.active {
     color: #fff;
-    background: #0085b6;
+    background: #000000;
 }
 
+.next-button, .prev-button{
+    display:none;
+}
