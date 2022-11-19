@@ -11,7 +11,6 @@ $cat=json_decode($result);
         <ul><li>All</li>
             <?php
             foreach($cat as $value){
-
                 $category='<li>'.$value->{'name'}.'</li>';
                 echo $category;
             }
