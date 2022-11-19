@@ -1,3 +1,5 @@
+
+<style><?php include 'css/custom.css'; ?></style>
 <?php
 if (isset($_GET['title'])) {
     $title=$_GET['title'];
@@ -19,7 +21,9 @@ $headers = array(
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
-$data = '{"title":"'.$title.'","content":"'.$content.'"}';
+
+$data = '{"title":"'.$title.'","content":"'.$content.'","status":"publish"}';
+
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
 

@@ -1,6 +1,6 @@
 <div class="header">
     <div class="header-menu">
-    <a href="#default" class="logo">CompanyLogo</a>
+    <img src="../images/logo.jpg"
     <div class="header-right">
         <a class="active" href="#about">About Us</a>
         <a href="#pricing">Pricing</a>

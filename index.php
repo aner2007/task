@@ -25,6 +25,8 @@
             <a class="close">&times;</a>
             <form action="/task/php/apipost.php">
                  <div>
+                    <input class="fname" type="text" name="title" placeholder="Post Title" />
+                    <br><br>
                     <span>Choose category</span>
                     <div class="category">
                     <input type="checkbox" id="design" name="design" value="Design">
@@ -60,12 +62,7 @@
     </div>
 </div>
 </div>
-<div class="blog-title">
-    <div class="blog-content">
-        <h2>Subscribe Blog for lates updates</h2>
-        <p>Lorem ipsum s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
-    </div>
-</div>
+
 <script src="js/pagination.js"></script>
 <script src="js/form.js"></script>
 <?php include 'includes/footer.php'; ?>

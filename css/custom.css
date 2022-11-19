@@ -72,3 +72,11 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
 }
+.back-link{
+    background: red;
+    padding: 10px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
