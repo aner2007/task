@@ -28,7 +28,7 @@
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#">Faq</a></li>
+                        <li><a href="..task/pages/index.html">Faq</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
