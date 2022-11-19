@@ -83,7 +83,7 @@ body {
 .category-names {
     border-bottom: 1px solid;
     max-width: 1318px;
-    margin: auto; }
+    margin-left: 22px }
 .category-names ul {
     display: flex;
     padding: 0; }
