@@ -4,10 +4,12 @@
     background-color: #f2feff;
     padding: 20px 10px;
 }
-.header-menu{
+
+.header-menu {
     max-width: 1423px;
-    margin:auto;
+    margin: auto;
 }
+
 /* Style the header links */
 .header a {
     float: left;
@@ -51,6 +53,7 @@
         display: block;
         text-align: left;
     }
+
     .header-right {
         float: none;
     }

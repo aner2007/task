@@ -18,9 +18,11 @@ main {
 h1 {
     margin-top: 0;
 }
-li{
-    display:block;
+
+li {
+    display: block;
 }
+
 .hidden {
     display: none;
 }
@@ -36,7 +38,7 @@ li{
 }
 
 .pagination-number,
-.pagination-button{
+.pagination-button {
     font-size: 0.9rem;
     background-color: transparent;
     border: none;
@@ -57,6 +59,6 @@ li{
     background: #000000;
 }
 
-#next-button, #prev-button{
-    display:none;
+#next-button, #prev-button {
+    display: none;
 }

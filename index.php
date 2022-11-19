@@ -1,11 +1,24 @@
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+    $title = "This is page title";
+    $description = "This is page description";
+    ?>
+    <title><?=$title?></title>
+    <meta name="description" content="<?=$description?>">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 <?php include 'includes/header.php'; ?>
-<style><?php include 'css/custom.css'; ?></style>
-<style><?php include 'css/header.css'; ?></style>
-<style><?php include 'css/footer.css'; ?></style>
-<style><?php include 'css/pagination.css'; ?></style>
-<style><?php include 'css/form.css'; ?></style>
 <div class="blog-title">
     <div class="blog-content">
        <h1>My Blog Custom PHP</h1>
@@ -60,8 +73,9 @@
         <div class="drop-btn"><a href="/contact">Contact us</a></div>
     </div>
 </div>
-</div>
+</body>
 
+<?php include 'includes/footer.php'; ?>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/pagination.js"></script>
 <script src="js/form.js"></script>
-<?php include 'includes/footer.php'; ?>
