@@ -79,3 +79,10 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 700; }
+
+.category-names ul {
+  display: flex; }
+
+.category-names li {
+  margin-left: 20px;
+  margin-right: 20px; }

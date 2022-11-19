@@ -1,17 +1,23 @@
 <?php
 $curl=curl_init();
 curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/categories');
+curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
+curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+
 $result=curl_exec($curl);
-$data=json_decode($result);
+$cat=json_decode($result);
 ?>
-<ul>>
-<?php
-foreach($data as $value){
-     $category='<li>'.$value->name.'</li>';
-    echo $category;
-}
-?>
-</ul>
+    <div class="category-names">
+        <ul><li>All</li>
+            <?php
+            foreach($cat as $value){
+
+                $category='<li>'.$value->{'name'}.'</li>';
+                echo $category;
+            }
+            ?>
+        </ul>
+    </div>
 <?php
 curl_close($curl);
 $curl=curl_init();
@@ -24,7 +30,8 @@ $result=curl_exec($curl);
 $data=json_decode($result);
 
 ?>
-<ul id="paginated-list" data-current-page="1" aria-live="polite">
+
+    <ul id="paginated-list" data-current-page="1" aria-live="polite">
     <?php
     foreach($data as $value){
         $html="";
