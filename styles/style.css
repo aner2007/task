@@ -80,9 +80,12 @@ body {
   text-decoration: none;
   font-weight: 700; }
 
-.category-names ul {
-  display: flex; }
-
-.category-names li {
-  margin-left: 20px;
-  margin-right: 20px; }
+.category-names {
+  border-bottom: 1px solid;
+  max-width: 1318px;
+  margin: auto; }
+  .category-names ul {
+    display: flex;
+    padding: 0; }
+  .category-names li {
+    margin-left: 0px; }

@@ -6,7 +6,6 @@
 <style><?php include 'css/footer.css'; ?></style>
 <style><?php include 'css/pagination.css'; ?></style>
 <style><?php include 'css/form.css'; ?></style>
-
 <div class="blog-title">
     <div class="blog-content">
        <h1>My Blog Custom PHP</h1>

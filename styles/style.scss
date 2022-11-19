@@ -82,10 +82,15 @@ body {
   font-weight: 700;
 
 }
-.category-names ul{
- display: flex;
-}
-.category-names li{
-  margin-left:20px;
-  margin-right: 20px;
+.category-names{
+  border-bottom: 1px solid;
+  max-width: 1318px;
+  margin: auto;
+  ul{
+    display: flex;
+    padding: 0;
+  }
+  li{
+     margin-left:0px;
+  }
 }
