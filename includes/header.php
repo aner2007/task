@@ -1,6 +1,6 @@
 <div class="header">
     <div class="header-menu">
-    <img src="../images/logo.jpg"
+    <img src="../task/images/logo.png" width="100">
     <div class="header-right">
         <a class="active" href="#about">About Us</a>
         <a href="#pricing">Pricing</a>
