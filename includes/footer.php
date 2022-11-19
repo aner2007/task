@@ -28,7 +28,7 @@
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="..task/pages/index.html">Faq</a></li>
+                        <li><a href="pages/faq.html">Faq</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
@@ -42,7 +42,7 @@
                 <div class="col-sm-6 col-md-3 item follow-us">
                     <h3>Follow us</h3>
                     <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-                    <img src="../task/images/logo.png" width="125">
+                    <img src="../task/images/logo.png" width="125" class="footer-img">
                 </div>
 
             </div>
