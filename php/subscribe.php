@@ -11,15 +11,12 @@
 <body>
 
 <div class="wrapper">
-    <label for="toggle">
-        <i class="cancel-icon fas fa-times"></i>
-    </label>
-    <div class="icon"><i class="far fa-envelope"></i></div>
+
     <div class="content">
-        <header>Become a Subscriber</header>
+        <header>Subscribe Blog for lates updates</header>
         <p>Subscribe to our blog and get the latest updates straight to your inbox.</p>
     </div>
-    <form action="/task/php/subscribe.php" method="POST">
+    <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="POST">
         <?php
         $userEmail = ""; //first we leave email field blank
         if(isset($_POST['subscribe'])){ //if subscribe btn clicked
@@ -57,11 +54,9 @@
         ?>
         <div class="field">
             <input type="text" class="email" name="email" placeholder="Email Address" required value="<?php echo $userEmail ?>">
-        </div>
-        <div class="field btn">
-            <div class="layer"></div>
             <button type="submit" name="subscribe">Subscribe</button>
         </div>
+
     </form>
     <div class="text">We do not share your information.</div>
 </div>

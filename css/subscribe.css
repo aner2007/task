@@ -5,10 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    height: 100vh;
-    background: linear-gradient(136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
-}
+
 ::selection{
     color: #fff;
     background: rgb(142,197,252);
