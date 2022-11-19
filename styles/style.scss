@@ -8,6 +8,13 @@ body {
   padding-top: 40px;
   float: left;
 }
+.post-main img{
+  vertical-align: middle;
+  border-style: none;
+  width: 100% !IMPORTANT;
+  height: auto;
+  max-height: 273px; !important;
+}
 #post-container{
   max-width: 1440px;
   margin: auto;
@@ -93,4 +100,22 @@ body {
   li{
      margin-left:0px;
   }
+}
+.min-read{
+  float: right;
+  display: block;
+  right: 10px;
+  position: absolute;
+  font-size: 13px;
+  padding-top: 2px;
+}
+.marketing{
+  display: flex;
+  background: #f2feff;
+  margin-top: 10px;
+  padding: 3px;
+  padding-top: 7px;
+  padding-left: 11px;
+  border: 1px solid #d7d7d7;
+  font-weight: 500;
 }

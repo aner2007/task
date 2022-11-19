@@ -15,7 +15,7 @@ $data=json_decode($result);
     foreach($data as $value){
         $html="";
         $html.="<li><div class='post-main'><img src=".$value->_embedded->{'wp:featuredmedia'}[0]->source_url." class='post-images' width=350 height=250>";
-        $html.='<div class="marketing"><span>MARKETING</span><span>5min Read</span></div>';
+        $html.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html.='<h2>'.$value->title->rendered.'</h2>';
         $html.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';
         $html.='<a href="'.$value->link.'" class="read-more">Read full article</a></div></li>';
