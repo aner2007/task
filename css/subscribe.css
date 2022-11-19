@@ -13,15 +13,7 @@ body{
     color: #fff;
     background: rgb(142,197,252);
 }
-.show-btn, .wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-}
+
 .show-btn{
     color: rgb(142,197,252);
     padding: 13px 18px;
@@ -45,14 +37,8 @@ body{
     pointer-events: auto;
     transition: all 0.3s ease;
 }
-#toggle{
-    display: none;
-}
-#toggle:checked ~ .wrapper{
-    opacity: 0;
-    pointer-events: none;
-    top: 40%;
-}
+
+
 .wrapper .cancel-icon{
     position: absolute;
     right: 20px;

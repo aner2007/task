@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-<input type="checkbox" id="toggle">
-<label for="toggle" class="show-btn">Show Modal</label>
+
 <div class="wrapper">
     <label for="toggle">
         <i class="cancel-icon fas fa-times"></i>
@@ -20,7 +19,7 @@
         <header>Become a Subscriber</header>
         <p>Subscribe to our blog and get the latest updates straight to your inbox.</p>
     </div>
-    <form action="index.php" method="POST">
+    <form action="/task/php/subscribe.php" method="POST">
         <?php
         $userEmail = ""; //first we leave email field blank
         if(isset($_POST['subscribe'])){ //if subscribe btn clicked
