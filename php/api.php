@@ -1,6 +1,22 @@
 <?php
 $curl=curl_init();
+curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/categories');
+$result=curl_exec($curl);
+$data=json_decode($result);
+?>
+<ul>>
+<?php
+foreach($data as $value){
+     $category='<li>'.$value->name.'</li>';
+    echo $category;
+}
+?>
+</ul>
+<?php
+curl_close($curl);
+$curl=curl_init();
 curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?_embed');
+//curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?categories=');
 curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
 curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
 
@@ -23,7 +39,6 @@ $data=json_decode($result);
 </ul>
     <nav class="pagination-container">
         <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
-            &lt;
         </button>
 
         <div id="pagination-numbers">
@@ -31,8 +46,7 @@ $data=json_decode($result);
         </div>
 
         <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
-            &gt;
-        </button>
+          </button>
     </nav>
 <?php
 curl_close($curl);
