@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="wrapper">
+<div class="wrapper-subscribe">
 
     <div class="content">
         <header>Subscribe Blog for lates updates</header>
@@ -22,9 +22,9 @@
         if(isset($_POST['subscribe'])){ //if subscribe btn clicked
             $userEmail = $_POST['email']; //getting user entered email
             if(filter_var($userEmail, FILTER_VALIDATE_EMAIL)){ //validating user email
-                $subject = "Thanks for Subscribing us - CodingNepal";
-                $message = "Thanks for subscribing to our blog. You'll always receive updates from us. And we won't share and sell your information.";
-                $sender = "From: shahiprem7890@gmail.com";
+                $subject = "Thanks for Subscribing us - Aner Blog";
+                $message = "Thanks for subscribing to Aner blog. You'll always receive updates from us. And we won't share and sell your information.";
+                $sender = "From: anercoric24@gmail.com";
                 //php function to send mail
                 if(mail($userEmail, $subject, $message, $sender)){
                     ?>
@@ -54,7 +54,7 @@
         ?>
         <div class="field">
             <input type="text" class="email" name="email" placeholder="Email Address" required value="<?php echo $userEmail ?>">
-            <button type="submit" name="subscribe">Subscribe</button>
+            <button type="submit" name="subscribe" class="subscribe-btn">Subscribe Now</button>
         </div>
 
     </form>

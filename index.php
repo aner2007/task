@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/pagination.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/subscribe.css">
 </head>
 <body>
 <?php include 'includes/header.php'; ?>

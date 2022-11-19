@@ -10,7 +10,10 @@
     color: #fff;
     background: rgb(142,197,252);
 }
-
+.wrapper-subscribe{
+    max-width: 955px;
+    margin: auto;
+}
 .show-btn{
     color: rgb(142,197,252);
     padding: 13px 18px;
@@ -19,23 +22,6 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.wrapper{
-    z-index: 5;
-    background: #fff;
-    padding: 30px;
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    top: 50%;
-    opacity: 1;
-    pointer-events: auto;
-    transition: all 0.3s ease;
-}
-
-
 .wrapper .cancel-icon{
     position: absolute;
     right: 20px;
@@ -75,6 +61,7 @@ form .field{
     height: 45px;
     width: 100%;
     margin-bottom: 12px;
+    display:flex;
 }
 form .field input{
     width: 100%;
@@ -138,4 +125,11 @@ form .btn button{
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
+}
+.subscribe-btn{
+    width: 50%;
+    background: #3cee9f;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 6px;
 }
