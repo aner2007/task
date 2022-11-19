@@ -49,7 +49,7 @@
 </div>
 
 <div id="post-container">
-
+    <?php include 'php/api_category.php'; ?>
     <?php include 'php/api.php'; ?>
 
      <div class="drop-us">
