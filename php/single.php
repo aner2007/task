@@ -57,7 +57,7 @@ $data=json_decode($result);
             }
         ?>
     <ul id="paginated-list" data-current-page="1" aria-live="polite">
-        echo $html;
+       <?php echo $html; ?>
     </ul>
     <nav class="pagination-container">
         <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
