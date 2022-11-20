@@ -82,5 +82,11 @@
 
 <?php include 'includes/footer.php'; ?>
 <script src="https://code.jquery.com/jquery-latest.js"></script>
-<script src="js/pagination.js"></script>
 <script src="js/form.js"></script>
+<script>$( document ).ready(function() {
+    $(".3").css("display","none");
+    $(".4").css("display","none");
+    $(".5").css("display","none");
+    $(".6").css("display","none");
+});</script>
+<script src="js/pagination.js"></script>

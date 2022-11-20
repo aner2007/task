@@ -93,8 +93,9 @@ curl_close($curl);
     function myfunction(id){
         $("#paginated-list li").css("display","none");
         $("."+id).css("display","block");
-        if(id=0){
-            $("#pagination-numbers").css("display","block");
+        if(id==0){
+          window.location ="https://aner.bosnialab.com/task/";
+         //  $("#pagination-numbers").css("display","block");
         } else{
             $("#pagination-numbers").css("display","none");
         }
