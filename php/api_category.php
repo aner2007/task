@@ -35,25 +35,25 @@ $cat=json_decode($result);
     $html6="";
     foreach($data as $value){
     if($value->_embedded->{'wp:term'}[0][0]->id == 5 ){
-    $html5.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'>"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
+    $html5.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
         $html5.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html5.='<h2>'.$value->title->rendered.'</h2>';
         $html5.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';
         $html5.='<a href="'.$value->link.'" class="read-more">Read full article</a></div></li>';
     } elseif ($value->_embedded->{'wp:term'}[0][0]->id == 4 ){
-        $html4.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'>"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
+        $html4.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
         $html4.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html4.='<h2>'.$value->title->rendered.'</h2>';
         $html4.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';
         $html4.='<a href="'.$value->link.'" class="read-more">Read full article</a></div></li>';
     }  elseif ($value->_embedded->{'wp:term'}[0][0]->id == 3 ){
-        $html3.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'>"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
+        $html3.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
         $html3.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html3.='<h2>'.$value->title->rendered.'</h2>';
         $html3.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';
         $html3.='<a href="'.$value->link.'" class="read-more">Read full article</a></div></li>';
     }  elseif ($value->_embedded->{'wp:term'}[0][0]->id == 6 ){
-    $html6.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'>"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
+    $html6.='<li class="'.$value->_embedded->{"wp:term"}[0][0]->id.'"><div class="post-main"><img src='.$value->_embedded->{"wp:featuredmedia"}[0]->source_url.' class="post-images" width=350 height=250>';
         $html6.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html6.='<h2>'.$value->title->rendered.'</h2>';
         $html6.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';

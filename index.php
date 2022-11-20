@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="css/subscribe.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
@@ -80,6 +81,6 @@
 </body>
 
 <?php include 'includes/footer.php'; ?>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="js/pagination.js"></script>
 <script src="js/form.js"></script>

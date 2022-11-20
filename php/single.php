@@ -77,6 +77,6 @@ $data=json_decode($result);
 <?php
 curl_close($curl);
 include '../includes/footer.php'; ?>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="../js/pagination.js"></script>
 <script src="../js/form.js"></script>
