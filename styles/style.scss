@@ -128,10 +128,10 @@ body {
   div {clear: both !important;
   }
 }
-.deleted-post{
+.delete-post{
   float: right;
-  background: red;
+  background: #ff8484;
   padding: 10px;
-  color: #fff;
+  color: #fff !important;
   margin-top: -9px;
 }

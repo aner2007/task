@@ -21,4 +21,4 @@ if (isset($_GET['postId'])) {
     echo "Don't exist Post with this Id";
 }
 header("Location: https://aner.bosnialab.com/task/");
-?>
+

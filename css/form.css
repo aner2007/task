@@ -98,3 +98,9 @@ button.button {
 .category label{
     margin-right: 40px;
 }
+@media (max-width: 767px) {
+    .add-post{
+        padding-bottom: 7px;
+        right:21px;
+    }
+}
