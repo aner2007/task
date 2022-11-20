@@ -8,7 +8,7 @@ $result=curl_exec($curl);
 $cat=json_decode($result);
 ?>
     <div class="category-names">
-        <ul><li>All</li>
+        <ul><li onclick = "myfunction(0)">All</li>
             <?php
             foreach($cat as $value){
                 $idCategory=$value->{'id'};
@@ -91,6 +91,14 @@ curl_close($curl);
 ?>
 <script>
     function myfunction(id){
-        $("."+id).css("display","none");
+        $("#paginated-list li").css("display","none");
+        $("."+id).css("display","block");
+        if(id=0){
+            $("#pagination-numbers").css("display","block");
+        } else{
+            $("#pagination-numbers").css("display","none");
+        }
+
+
     }
 </script>

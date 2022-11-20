@@ -62,3 +62,6 @@ li {
 #next-button, #prev-button {
     display: none;
 }
+.3, .4, .5, .6{
+display:none;
+}
