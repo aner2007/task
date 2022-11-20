@@ -1,7 +1,6 @@
 <?php
 $curl=curl_init();
 curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?per_page=100&_embed');
-//curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?categories=');
 curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
 curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
 
