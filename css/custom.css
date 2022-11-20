@@ -138,3 +138,6 @@ body {
     margin-left: 0px;
     margin-right: 40px;
 }
+#paginated-list:nth-child(10) div {
+   clear: both !important;
+}
