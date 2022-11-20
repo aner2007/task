@@ -138,3 +138,10 @@ body {
     margin-left: 0px;
     margin-right: 40px;
 }
+.deleted-post{
+    float: right;
+    background: red;
+    padding: 10px;
+    color: #fff;
+    margin-top: -9px;
+}
