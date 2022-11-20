@@ -1,6 +1,6 @@
 <?php
 $curl=curl_init();
-curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/categories');
+curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/categories?per_page=100');
 curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
 curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
 
