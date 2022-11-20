@@ -11,9 +11,9 @@ body {
 .post-main img{
   vertical-align: middle;
   border-style: none;
-  width: 100% !IMPORTANT;
+  width: 100% !important;
   height: auto;
-  max-height: 273px; !important;
+  max-height: 273px !important;
 }
 #post-container{
   max-width: 1440px;
@@ -123,4 +123,8 @@ body {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+#paginated-list li:nth-child(10) {
+  div {clear: both !important;
+  }
 }
