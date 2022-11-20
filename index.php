@@ -64,7 +64,7 @@
 
 <div id="post-container">
     <?php include 'php/api_category.php'; ?>
-    <?php include 'php/api.php'; ?>
+
     <div class="blog-title">
         <?php include 'php/subscribe.php'; ?>
     </div>
