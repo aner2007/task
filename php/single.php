@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="css/custom.css">
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/pagination.css">
-<link rel="stylesheet" href="css/form.css">
-<link rel="stylesheet" href="styles/style.css">
-<link rel="stylesheet" href="css/subscribe.css">
-<?php include 'includes/header.php'; ?>
+<link rel="stylesheet" href="../css/custom.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../css/pagination.css">
+<link rel="stylesheet" href="../css/form.css">
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="../css/subscribe.css">
+<?php include '../includes/header.php'; ?>
 <?php
 $curl=curl_init();
 curl_setopt($curl,CURLOPT_URL,'https://rosins-dev.digiqal.de/wp-json/wp/v2/posts?per_page=100&_embed');
@@ -72,7 +72,7 @@ $data=json_decode($result);
     </nav>
 <?php
 curl_close($curl);
-include 'includes/footer.php'; ?>
+include '../includes/footer.php'; ?>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/pagination.js"></script>
-<script src="js/form.js"></script>
+<script src="../js/pagination.js"></script>
+<script src="../js/form.js"></script>
