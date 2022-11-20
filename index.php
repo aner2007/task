@@ -29,7 +29,7 @@
 
 
 <div class="add-post">
-    <button class="button" data-modal="modalOne">Add Post</button>
+    <button class="button" data-modal="modalOne">Add New Post</button>
 </div>
 
 <div id="modalOne" class="modal">

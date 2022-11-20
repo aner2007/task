@@ -7,7 +7,7 @@ body {
     width: 33%;
     padding: 20px;
     padding-top: 40px;
-    float: left;
+    float: right;
 }
 .post-main img{
     vertical-align: middle;
@@ -32,6 +32,11 @@ body {
     position: absolute;
     font-size: 13px;
     padding-top: 2px;
+}
+.post-main a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 #post-container {
     max-width: 1440px;
@@ -120,7 +125,7 @@ body {
 
 .category-names {
     border-bottom: 1px solid;
-    max-width: 1318px;
+    max-width: 1378px;
     margin-left: 22px;
 }
 

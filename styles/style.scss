@@ -6,7 +6,7 @@ body {
   width: 33%;
   padding: 20px;
   padding-top: 40px;
-  float: left;
+  float: right;
 }
 .post-main img{
   vertical-align: middle;
@@ -91,7 +91,7 @@ body {
 }
 .category-names{
   border-bottom: 1px solid;
-  max-width: 1318px;
+  max-width: 1378px;
   margin-left: 22px;
   ul{
     display: flex;
@@ -118,4 +118,9 @@ body {
   padding-left: 11px;
   border: 1px solid #d7d7d7;
   font-weight: 500;
+}
+.post-main a{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
