@@ -95,8 +95,7 @@ curl_close($curl);
         $("."+id).css("display","block");
         if(id==0){
           window.location ="https://aner.bosnialab.com/task/";
-         //  $("#pagination-numbers").css("display","block");
-        } else{
+          } else{
             $("#pagination-numbers").css("display","none");
         }
 
