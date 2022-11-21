@@ -161,7 +161,7 @@ body {
     }
     .add-post {
         right: 21px;
-        margin-bottom: 18px;
+        margin-bottom: 18px !important;
     }
     .header-right {
         float: left;
@@ -230,4 +230,8 @@ body {
         font-weight: 600;
         height: 38px;
     }
+    #paginated-list li:nth-child(3) div {
+        clear: both !important; }
+    #paginated-list li:nth-child(5) div {
+        clear: both !important; }
 }
