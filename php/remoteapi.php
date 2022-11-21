@@ -27,7 +27,7 @@ $arrayIds=[];
     curl_close($curl); ?>
 <?php include '../includes/header.php'; ?>
 
-<style><?php include '../css/pagination.css'; ?></style>
+<style><?php include '../css1/pagination.css1'; ?></style>
 <main>
 
 

@@ -9,14 +9,17 @@ body {
     padding-top: 40px;
     float: left;
 }
-.post-main img{
+
+.post-main img {
     vertical-align: middle;
     border-style: none;
     width: 100% !IMPORTANT;
     height: auto;
-    max-height: 273px; !important;
+    max-height: 273px;
+!important;
 }
-.marketing{
+
+.marketing {
     display: flex;
     background: #f2feff;
     margin-top: 10px;
@@ -25,7 +28,8 @@ body {
     font-weight: 500;
     position: relative;
 }
-.min-read{
+
+.min-read {
     float: right;
     display: block;
     right: 10px;
@@ -33,11 +37,13 @@ body {
     font-size: 13px;
     padding-top: 2px;
 }
-.post-main a{
+
+.post-main a {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
+
 #post-container {
     max-width: 1440px;
     margin: auto;
@@ -138,13 +144,15 @@ body {
     margin-left: 0px;
     margin-right: 40px;
 }
-.delete-post{
+
+.delete-post {
     float: right;
     background: #ff8484;
     padding: 10px;
     color: #fff !important;
     margin-top: -9px;
 }
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -217,6 +225,7 @@ body {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
 @media (max-width: 767px) {
     .post-main {
         width: 50%;
@@ -224,25 +233,31 @@ body {
         padding-top: 40px;
         float: left;
     }
+
     .blog-content p {
         width: auto !important;
     }
+
     .category-names {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .add-post {
         right: 21px;
         margin-bottom: 18px !important;
     }
+
     .header-right {
         float: left;
         margin-left: 10px;
     }
+
     .post-main img {
         height: auto;
         max-height: 174px !important;
     }
+
     .post-main a {
         color: #000;
         text-decoration: none;
@@ -253,20 +268,24 @@ body {
         margin-top: 13px;
         float: inherit;
     }
+
     .drop-left {
         width: 66%;
         padding-left: 22px;
     }
-    .drop-us{
+
+    .drop-us {
         display: block !important;
         margin-left: 19px !important;
         width: 94% !important;
         margin-right: 16px;
     }
+
     .drop-left {
         width: 100% !important;
         padding-left: 22px !important;
     }
+
     .drop-btn {
         display: block;
         margin: auto;
@@ -283,12 +302,17 @@ body {
         font-weight: 600;
         height: 38px;
     }
+
     #paginated-list li:nth-child(3) div {
-        clear: both !important; }
+        clear: both !important;
+    }
+
     #paginated-list li:nth-child(5) div {
-        clear: both !important; }
+        clear: both !important;
+    }
 }
-/* Footer  css */
+
+/* Footer  css1 */
 .footer-dark {
     padding: 130px;
     color: #f0f9ff;
@@ -395,6 +419,7 @@ body {
 .follow-us h3 {
     margin-left: 32px;
 }
+
 @media (max-width: 767px) {
     .footer-dark {
         padding: 89px 20px;
@@ -405,28 +430,34 @@ body {
         height: auto;
         padding-bottom: 20px !important;
     }
+
     .drop-left {
         width: 100%;
         padding-left: 22px;
     }
+
     .footer-dark .item:not(.social) {
         text-align: left;
         padding-bottom: 20px;
     }
+
     .footer-img {
         margin-top: 10px;
         margin-left: 0px;
     }
-    .footer-dark .item.social > a{
-        padding-top:0;
+
+    .footer-dark .item.social > a {
+        padding-top: 0;
     }
+
     .follow-us h3 {
         margin-left: 0px;
     }
 
 }
-/*End footer css*/
-/*Form css add new post*/
+
+/*End footer css1*/
+/*Form css1 add new post*/
 .modal {
     display: none;
     position: fixed;
@@ -439,28 +470,33 @@ body {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-content {
     margin: 50px auto;
     border: 1px solid #999;
     width: 60% !important;
 
 }
+
 h2,
 p {
     margin: 0 0 20px;
     font-weight: 400;
     color: #999;
 }
+
 span {
     color: #666;
     display: block;
     padding: 0 0 5px;
 }
+
 form {
     padding: 25px;
     margin: 25px;
 
 }
+
 input,
 textarea {
     width: 90%;
@@ -469,6 +505,7 @@ textarea {
     border: 1px solid #3cee9f;
     outline: none;
 }
+
 .contact-form button {
     width: 90%;
     padding: 10px;
@@ -478,21 +515,25 @@ textarea {
     font-weight: 400;
     color: #fff;
 }
+
 button:hover {
     background: #3cee9f;
 }
+
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+
 button.button {
     background: none;
     border-top: none;
@@ -504,7 +545,8 @@ button.button {
     font-size: 16px;
     cursor: pointer;
 }
-.add-post{
+
+.add-post {
     max-width: 1440px;
     margin: auto;
     margin-top: 30px;
@@ -516,23 +558,26 @@ button.button {
     padding-bottom: 6px;
     margin-bottom: -24px;
 }
-.category input{
+
+.category input {
     width: auto;
     margin-right: 13px;
     padding-right: 10px;
     padding-top: 11px;
     margin-top: 5px;
 }
-.category label{
+
+.category label {
     margin-right: 40px;
 }
 
 @media (max-width: 767px) {
-    .add-post{
+    .add-post {
         padding-bottom: 7px;
-        right:21px;
+        right: 21px;
     }
 }
+
 /*Header*/
 /* Style the header with a grey background and some padding */
 .header {
@@ -594,7 +639,8 @@ button.button {
         float: none;
     }
 }
-/* paggination css*/
+
+/* paggination css1*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
@@ -659,85 +705,108 @@ li {
 #next-button, #prev-button {
     display: none;
 }
-.3, .4, .5, .6{
-    display:none !important;
+
+.3
+,
+.4
+,
+.5
+,
+.6
+{
+    display: none !important
+;
 }
-.pagination-number:nth-child(3){
-    display:none;
+.pagination-number:nth-child(3) {
+    display: none;
 }
-.pagination-number:nth-child(4){
-    display:none;
+
+.pagination-number:nth-child(4) {
+    display: none;
 }
-.category-names ul li{
+
+.category-names ul li {
     cursor: pointer;
 }
-/*subscribe css*/
+
+/*subscribe css1*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-::selection{
+::selection {
     color: #fff;
-    background: rgb(142,197,252);
+    background: rgb(142, 197, 252);
 }
-.wrapper-subscribe{
+
+.wrapper-subscribe {
     max-width: 955px;
     margin: auto;
 }
-.show-btn{
-    color: rgb(142,197,252);
+
+.show-btn {
+    color: rgb(142, 197, 252);
     padding: 13px 18px;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
 }
-.wrapper .cancel-icon{
+
+.wrapper .cancel-icon {
     position: absolute;
     right: 20px;
     top: 20px;
-    color: rgb(142,197,252);
+    color: rgb(142, 197, 252);
     cursor: pointer;
 }
-.cancel-icon:hover{
-    color: rgb(224,195,252);
+
+.cancel-icon:hover {
+    color: rgb(224, 195, 252);
 }
-.wrapper .icon{
+
+.wrapper .icon {
     height: 110px;
     width: 110px;
-    background: linear-gradient(136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    background: linear-gradient(136deg, rgb(224, 195, 252) 0%, rgb(142, 197, 252) 100%);
     line-height: 110px;
     border-radius: 50%;
     color: #fff;
     font-size: 55px;
 }
-.wrapper .content{
+
+.wrapper .content {
     margin: 20px 0;
 }
-.content header{
+
+.content header {
     font-size: 30px;
     font-weight: 600;
 }
-.content p{
+
+.content p {
     color: #333;
     font-size: 16px;
     font-weight: 400;
     margin-left: -3px;
 }
-form{
+
+form {
     width: 98%;
 }
-form .field{
+
+form .field {
     height: 45px;
     width: 100%;
     margin-bottom: 12px;
-    display:flex;
+    display: flex;
 }
-form .field input{
+
+form .field input {
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -747,32 +816,37 @@ form .field input{
     font-size: 17px;
     transition: all 0.3s ease;
 }
-form .field input:focus{
-    border-color: rgb(142,197,252);
+
+form .field input:focus {
+    border-color: rgb(142, 197, 252);
 }
-form .btn{
+
+form .btn {
     height: 47px;
     width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
 }
-form .btn .layer{
+
+form .btn .layer {
     height: 100%;
     width: 300%;
     position: absolute;
     left: -100%;
-    background: linear-gradient(136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    background: linear-gradient(136deg, rgb(224, 195, 252) 0%, rgb(142, 197, 252) 100%);
     transition: all 0.4s ease;
 }
-form .btn:hover .layer{
+
+form .btn:hover .layer {
     left: 0;
 }
-form .btn button{
+
+form .btn button {
     z-index: 1;
     position: relative;
     background: none;
-    padding: 0px!important;
+    padding: 0px !important;
     color: #fff;
     border: 0px;
     outline: none;
@@ -782,25 +856,30 @@ form .btn button{
     height: 100%;
     width: 100%;
 }
-.wrapper .text{
+
+.wrapper .text {
     margin-top: 5px;
 }
-.alert{
+
+.alert {
     margin: -9px 0 12px 0;
     padding: 10px;
     border-radius: 5px;
 }
-.success-alert{
+
+.success-alert {
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
-.error-alert{
+
+.error-alert {
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     width: 50%;
     background: #3cee9f;
     border: 0;

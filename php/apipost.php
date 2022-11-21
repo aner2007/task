@@ -1,5 +1,5 @@
 
-<style><?php include '../css/custom.css'; ?></style>
+<style><?php include '../css1/custom.css'; ?></style>
 <?php
 if (isset($_GET['title'])) {
     $title=$_GET['title'];
