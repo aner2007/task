@@ -754,10 +754,8 @@ li {
     width: 100%;
     height: auto;
     padding-bottom: 20px !important;
-    .item.social {
-      >a {
-        padding-top: 0;
-      }
+    .item.social >a {
+        padding-top: 0 !important;
     }
   }
   .footer-img {

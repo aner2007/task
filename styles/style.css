@@ -669,7 +669,7 @@ li {
     .footer-dark .item.text {
       margin-bottom: 0; }
     .footer-dark .item.social > a {
-      padding-top: 0; }
+      padding-top: 0 !important; }
   .footer-img {
     margin-top: 10px;
     margin-left: 0px; }
