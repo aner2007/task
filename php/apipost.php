@@ -37,11 +37,7 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 $resp = curl_exec($curl);
 
 curl_close($curl);
-?>
-<script>
-    alert('You have successfully added a new post to my Blog');
-</script>
-<?php
+
 header("Location: https://aner.bosnialab.com/task/");
 ?>
 
