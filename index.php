@@ -35,14 +35,14 @@
                     <br><br>
                     <span>Choose category</span>
                     <div class="category">
-                    <input type="checkbox" id="design" name="design" value="Design">
-                    <label for="vehicle1"> Design</label><br>
-                    <input type="checkbox" id="branding" name="branding" value="Branding">
-                    <label for="vehicle2"> Branding</label><br>
-                    <input type="checkbox" id="ilustrations" name="ilustrations" value="Ilustrations">
-                    <label for="vehicle3"> Ilustrations</label><br>
-                    <input type="checkbox" id="icons" name="icons" value="Icons">
-                    <label for="vehicle4"> Icons</label><br>
+                    <input type="radio" id="animal" name="category" value="6">
+                    <label for="vehicle1"> Animal</label><br>
+                    <input type="radio" id="music" name="category" value="5">
+                    <label for="vehicle2"> Music</label><br>
+                    <input type="radio" id="nature" name="category" value="3">
+                    <label for="vehicle3"> Nature</label><br>
+                    <input type="radio" id="sport" name="category" value="4">
+                    <label for="vehicle4"> Sport</label><br>
                     </div>
                 </div>
                 <span>Content</span>
