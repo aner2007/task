@@ -1,16 +1,4 @@
-<?php if ($_GET['success'] =='yes') {
- ?>
-<div class="success-message">You have successfully added a new post to my Blog!!!</div>
-    <script>
-        setTimeout(
-            function() {
-                window.location = "https://aner.bosnialab.com/task?success=yes"
-            }, 2000);
-    </script>
 
-<?php
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +13,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+<?php if ($_GET['success'] =='yes') {
+    ?>
+    <div class="success-message">You have successfully added a new post to my Blog!!!</div>
+    <script>
+        setTimeout(
+            function() {
+                window.location = "https://aner.bosnialab.com/task"
+            }, 2000);
+    </script>
+
+    <?php
+}
+?>
 <?php include 'includes/header.php'; ?>
 <div class="blog-title">
     <div class="blog-content">
