@@ -13,7 +13,7 @@ $data=json_decode($result);
     <?php
     foreach($data as $value){
         $html="";
-        $html.="<li><div class='post-main'><img src=".$value->_embedded->{'wp:featuredmedia'}[0]->source_url." class='post-images' width=350 height=250>";
+        $html.="<li><div class='post-main'><img src=".$value->_embedded->{'wp:featuredmedia'}[0]->source_url." class='post-images' width=350 height=250 alt='image our post''>";
         $html.='<div class="marketing"><span>MARKETING</span><span class="min-read">5min Read</span></div>';
         $html.='<h2>'.$value->title->rendered.'</h2>';
         $html.='<div class="content-text"><p>'.$value->content->rendered.'</p></div>';
