@@ -25,7 +25,7 @@ $headers = array(
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
 
-$data = '{"title":"'.$title.'","content":"'.$content.'","status":"publish","categories":"'.$categoryId."}';
+$data = '{"title":"'.$title.'","content":"'.$content.'","status":"publish","categories":"'.$categoryId.'"}';
 
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
