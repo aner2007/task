@@ -153,7 +153,7 @@ body {
         float: left;
     }
     .blog-content p {
-        width: auto;
+        width: auto !important;
     }
     .category-names {
         margin-left: 20px;
@@ -185,21 +185,15 @@ body {
         width: 66%;
         padding-left: 22px;
     }
-    .footer-dark {
-        padding: 89px 20px;
-        color: #f0f9ff;
-        background-color: #282d32;
-        float: left;
-        width: 100%;
-        height: auto;
-        padding-bottom: 15px !important;
-    }
     .drop-us{
-        display: block;
+        display: block !important;
+        margin-left: 19px !important;
+        width: 94% !important;
+        margin-right: 16px;
     }
     .drop-left {
-        width: 100%;
-        padding-left: 22px;
+        width: 100% !important;
+        padding-left: 22px !important;
     }
     .drop-btn {
         display: block;
@@ -210,19 +204,8 @@ body {
         width: 160px;
         margin-bottom: 11px;
     }
-    .footer-dark .item:not(.social) {
-        text-align: left;
-        padding-bottom: 20px;
-    }
     .follow-us h3 {
         margin-left: 0px;
-    }
-    .footer-img {
-        margin-top: 10px;
-        margin-left: 0px;
-    }
-    .footer-dark .item.social > a{
-        padding-top:0;
     }
     .post-main h2 {
         margin-top: 20px;
