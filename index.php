@@ -1,3 +1,16 @@
+<?php if ($_GET['success'] =='yes') {
+ ?>
+<div class="success-message">You have successfully added a new post to my Blog!!!</div>
+    <script>
+        setTimeout(
+            function() {
+                window.location = "https://aner.bosnialab.com/task?success=yes"
+            }, 2000);
+    </script>
+
+<?php
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

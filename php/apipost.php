@@ -38,7 +38,6 @@ $resp = curl_exec($curl);
 
 curl_close($curl);
 
-header("Location: https://aner.bosnialab.com/task/");
 ?>
 
-
+<script> window.location = "https://aner.bosnialab.com/task?success=yes";</script>
