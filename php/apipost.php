@@ -37,7 +37,12 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 $resp = curl_exec($curl);
 
 curl_close($curl);
-echo "You have successfully added a post";
 ?>
-<a href ="/task" class="back-link">Back to Blog</a>
+<script>
+    alert('You have successfully added a new post to my Blog');
+</script>
+<?php
+header("Location: https://aner.bosnialab.com/task/");
+?>
+
 
