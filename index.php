@@ -15,7 +15,7 @@
 <body>
 <?php if ($_GET['success'] =='yes') {
     ?>
-    <div class="success-message">You have successfully added a new post to my Blog!!!</div>
+    <div style="background: #3cee9f;text-align:center;padding:4px;">You have successfully added a new post to my Blog!!!</div>
     <script>
         setTimeout(
             function() {
