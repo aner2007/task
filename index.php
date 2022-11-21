@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Testni zadatak za posao u firmi Lanaco</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
-    $title = "This is page title";
-    $description = "This is page description";
-    ?>
-    <title><?=$title?></title>
-    <meta name="description" content="<?=$description?>">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/pagination.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="styles/style.css">
+
+    <meta name="description" content="Test your website with the free SEO check from Seobility and get tips for a better search engine optimization.">
+     <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
@@ -28,7 +22,7 @@
 
 
 <div class="add-post">
-    <button class="button" data-modal="modalOne">Add Post</button>
+    <button class="button" data-modal="modalOne">Add New Post</button>
 </div>
 
 <div id="modalOne" class="modal">
@@ -41,14 +35,13 @@
                     <br><br>
                     <span>Choose category</span>
                     <div class="category">
-                    <input type="checkbox" id="design" name="design" value="Design">
-                    <label for="vehicle1"> Design</label><br>
-                    <input type="checkbox" id="branding" name="branding" value="Branding">
-                    <label for="vehicle2"> Branding</label><br>
-                    <input type="checkbox" id="ilustrations" name="ilustrations" value="Ilustrations">
-                    <label for="vehicle3"> Ilustrations</label><br>
-                    <input type="checkbox" id="icons" name="icons" value="Icons">
-                    <label for="vehicle4"> Icons</label><br>
+                        <select name="category">
+                            <option value="5">Music</option>
+                            <option value="6">Animal</option>
+                            <option value="4">Sport</option>
+                            <option value="3">Nature</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
                     </div>
                 </div>
                 <span>Content</span>
@@ -63,7 +56,10 @@
 
 <div id="post-container">
     <?php include 'php/api_category.php'; ?>
-    <?php include 'php/api.php'; ?>
+
+    <div class="blog-title">
+        <?php include 'php/subscribe.php'; ?>
+    </div>
 
      <div class="drop-us">
         <div class="drop-left">
@@ -76,6 +72,12 @@
 </body>
 
 <?php include 'includes/footer.php'; ?>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/pagination.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="js/form.js"></script>
+<script>$( document ).ready(function() {
+    $(".3").css("display","none");
+    $(".4").css("display","none");
+    $(".5").css("display","none");
+    $(".6").css("display","none");
+});</script>
+<script src="js/pagination.js"></script>

@@ -1,11 +1,14 @@
 
-<style><?php include '../css/custom.css'; ?></style>
+<style><?php include '../css1/custom.css'; ?></style>
 <?php
 if (isset($_GET['title'])) {
     $title=$_GET['title'];
 }
 if (isset($_GET['content'])) {
     $content=$_GET['content'];
+}
+if (isset($_GET['category'])) {
+    $categoryId=$_GET['category'];
 }
 $url = "https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
 
@@ -22,7 +25,7 @@ $headers = array(
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
 
-$data = '{"title":"'.$title.'","content":"'.$content.'","status":"publish"}';
+$data = '{"title":"'.$title.'","content":"'.$content.'","status":"publish","categories":"'.$categoryId.'"}';
 
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
@@ -34,7 +37,8 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 $resp = curl_exec($curl);
 
 curl_close($curl);
-echo "You have successfully added a post";
+
+header("Location: https://aner.bosnialab.com/task/");
 ?>
-<a href ="/task" class="back-link">Back to Blog</a>
+
 
