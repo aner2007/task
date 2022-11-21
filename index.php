@@ -35,14 +35,13 @@
                     <br><br>
                     <span>Choose category</span>
                     <div class="category">
-                    <input type="radio" id="animal" name="category" value="6">
-                    <label for="vehicle1"> Animal</label><br>
-                    <input type="radio" id="music" name="category" value="5">
-                    <label for="vehicle2"> Music</label><br>
-                    <input type="radio" id="nature" name="category" value="3">
-                    <label for="vehicle3"> Nature</label><br>
-                    <input type="radio" id="sport" name="category" value="4">
-                    <label for="vehicle4"> Sport</label><br>
+                        <select name="category">
+                            <option value="5">Music</option>
+                            <option value="6">Animal</option>
+                            <option value="4">Sport</option>
+                            <option value="3">Nature</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
                     </div>
                 </div>
                 <span>Content</span>

@@ -7,8 +7,8 @@ if (isset($_GET['title'])) {
 if (isset($_GET['content'])) {
     $content=$_GET['content'];
 }
-if (isset($_GET['name'])) {
-    $categoryId=$_GET['name'];
+if (isset($_GET['category'])) {
+    $categoryId=$_GET['category'];
 }
 $url = "https://rosins-dev.digiqal.de/wp-json/wp/v2/posts";
 
