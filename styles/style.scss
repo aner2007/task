@@ -135,3 +135,17 @@ body {
   color: #fff !important;
   margin-top: -9px;
 }
+@media (max-width: 767px) {
+  .post-main {
+    width: 50%;
+    padding: 20px;
+    padding-top: 40px;
+    float: left;
+  }
+  #paginated-list li:nth-child(3) div {
+    clear: both !important; }
+  .post-main img {
+    height: auto;
+    max-height: 182px !important;
+  }
+}

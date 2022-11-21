@@ -87,7 +87,6 @@ button.button {
     padding-bottom: 6px;
     margin-bottom: -24px;
 }
-
 .category input{
     width: auto;
     margin-right: 13px;
@@ -98,9 +97,10 @@ button.button {
 .category label{
     margin-right: 40px;
 }
+
 @media (max-width: 767px) {
-    .add-post{
+       .add-post{
         padding-bottom: 7px;
-        right:21px;
+       right:21px;
     }
 }

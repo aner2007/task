@@ -152,4 +152,82 @@ body {
         padding-top: 40px;
         float: left;
     }
+    .blog-content p {
+        width: auto;
+    }
+    .category-names {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .add-post {
+        right: 21px;
+        margin-bottom: 18px;
+    }
+    .header-right {
+        float: left;
+        margin-left: 10px;
+    }
+    .post-main img {
+        height: auto;
+        max-height: 182px !important;
+    }
+    .post-main a {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+        width: 165px;
+        margin: auto;
+        margin-top: 13px;
+        float: inherit;
+    }
+    .drop-left {
+        width: 66%;
+        padding-left: 22px;
+    }
+    .footer-dark {
+        padding: 89px 20px;
+        color: #f0f9ff;
+        background-color: #282d32;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px !important;
+    }
+    .drop-us{
+        display: block;
+    }
+    .drop-left {
+        width: 100%;
+        padding-left: 22px;
+    }
+    .drop-btn {
+        display: block;
+        margin: auto;
+        color: #000;
+        background: #3cee9f;
+        padding: 10px 35px;
+        width: 160px;
+        margin-bottom: 11px;
+    }
+    .footer-dark .item:not(.social) {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .follow-us h3 {
+        margin-left: 0px;
+    }
+    .footer-img {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footer-dark .item.social > a{
+        padding-top:0;
+    }
+    .post-main h2 {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        height: 38px;
+    }
 }
