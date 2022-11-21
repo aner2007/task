@@ -259,7 +259,7 @@ body {
       margin: 0 8px;
       color: #fff;
       opacity: 0.75;
-      padding-top: 7px;
+      padding-top: 0px;
       &:hover {
         opacity: 0.9;
       }
@@ -745,7 +745,7 @@ li {
       }
     }
     .item.text {
-      margin-bottom: 0;
+       margin-bottom: 0;
     }
     padding: 89px 20px;
     color: #f0f9ff;
@@ -755,7 +755,7 @@ li {
     height: auto;
     padding-bottom: 20px !important;
     .item.social >a {
-        padding-top: 0 !important;
+        padding-top: 0;
     }
   }
   .footer-img {
